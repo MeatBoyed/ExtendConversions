@@ -1,0 +1,15 @@
+{
+   "name": "ExendConversions",
+   "version": "1.0",
+   "description": "A conversion tool",
+   "background": {
+       "scripts": ["./background.js"]
+   },
+   "options_poage": "./options.html",
+   "browser_action": {
+       "default_popup": "./popup.hmtl"
+   },
+   "permissions": [
+       "activeTab"
+   ]
+}
