@@ -3,19 +3,8 @@
     "version": "1.0",
     "manifest_version": 2,
     "description": "A conversion tool",
-    "background": {
-        "scripts": [
-            "./background.js"
-        ]
-    },
     "options_page": "./options.html",
     "browser_action": {
-        "default_popup": "./popup.hmtl"
-    },
-    "permissions": [
-        "activeTab",
-        "<all_urls>",
-        "chrome://extensions/",
-        "tabs"
-    ]
+        "default_popup": "./popup.html"
+    }
 }

@@ -1,8 +1,16 @@
 
 
 function validateText() {
+    text = ""
+
     console.log("valid running")
-    console.log(document.getSelection().toString())
+    text = document.getSelection().toString()
+
+    if (text == "yes") {
+        alert("message")
+    }else if (text == "sure") {
+        alert("message")
+    }
 }
 
 // Validate the selected text
